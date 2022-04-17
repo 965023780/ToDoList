@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="accessibility_service_label">accessibility</string>
+    <string name="accessibility_service_description">Todo</string>
+    <string name="navigation_task">任务</string>
+    <string name="navigation_calendar">日历</string>
+    <string name="navigation_stats">统计</string>
+    <string name="navigation_user">我的</string>
+    <string name="floating_button">添加计划</string>
+    <string name="main_add_hint">- - : - -</string>
+    <string name="times_tip">设置打卡次数：</string>
+    <string name="main_notify_tip">设置提醒时间：</string>
+    <string name="main_notify_tip_unit">次</string>
+    <string name="main_every_month">每月</string>
+    <string name="main_every_week">每周</string>
+    <string name="main_every_day">每日</string>
+    <string name="main_hint">请填写任务</string>
+    <string name="main_submit">提交</string>
+    <string name="main_task">任务</string>
+    <string name="main_creating_new_task">当前正在创建新任务</string>
+    <string name="main_set_notify_time">设置提醒时间</string>
+    <string name="main_set_new_task">设置任务内容</string>
+    <string name="main_submit_content">提交</string>
+</resources>

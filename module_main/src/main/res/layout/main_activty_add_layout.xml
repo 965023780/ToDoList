@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddTaskActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:focusable="true"
+        android:contentDescription="@string/main_creating_new_task"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/main_tv_times_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/times_tip"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_toolbar" />
+    
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/main_tv_notify_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/main_notify_tip"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_btn_every_day" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/main_tv_notify_tip_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/main_notify_tip_unit"
+        app:layout_constraintStart_toEndOf="@id/main_edit_count"
+        app:layout_constraintTop_toBottomOf="@+id/main_tv_times_tip" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/main_btn_every_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_btn_add"
+        android:text="@string/main_every_month"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/main_btn_every_week"
+        app:layout_constraintTop_toBottomOf="@id/main_tv_times_tip"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/main_btn_every_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_btn_add"
+        android:text="@string/main_every_week"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/main_btn_every_day"
+        app:layout_constraintTop_toBottomOf="@id/main_tv_times_tip" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/main_btn_every_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_btn_add"
+        android:text="@string/main_every_day"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_tv_times_tip"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/main_tv_every"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/main_every_day"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_tv_times_tip" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/main_edit_count"
+        android:layout_width="27dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:inputType="number"
+        android:nextFocusForward="@+id/main_edit_time"
+        android:text="1"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/main_tv_every"
+        app:layout_constraintTop_toBottomOf="@+id/main_tv_times_tip" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/main_edit_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_time"
+        android:elevation="2dp"
+        android:textSize="15dp"
+        android:hint="@string/main_add_hint"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_tv_notify_tip"/>
+    
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/main_tv_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/main_task"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_edit_time" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/main_edit_task"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:maxLength="15"
+        android:hint="@string/main_hint"
+        android:textSize="15dp"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_tv_task" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/main_btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_btn_add"
+        android:text="@string/main_submit"
+        android:gravity="center"
+        android:focusable="true"
+        android:contentDescription="@string/main_submit_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_edit_task"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

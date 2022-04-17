@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/activity_calendar.xml" value="0.2210144927536232" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/calendar_activity_layout.xml" value="0.19384057971014493" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/calendar_activty_layout.xml" value="0.20108695652173914" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/calendar_care_empty.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/calendar_care_item_task.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/calendar_empty.xml" value="0.20108695652173914" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/calendar_fragment_layout.xml" value="0.20108695652173914" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/calendar_item_empty.xml" value="0.20108695652173914" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/calendar_item_task.xml" value="0.20108695652173914" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/calendar_todo_week_bar.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/fragment_calendar.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/item_task.xml" value="0.20108695652173914" />
+        <entry key="..\:/AndroidProject/ToDo/module_calendar/src/main/res/layout/todo_week_bar.xml" value="0.2078804347826087" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/drawable/selector_floating_btn.xml" value="0.21458333333333332" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/drawable/shape.xml" value="0.2111111111111111" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/drawable/shape_2.xml" value="0.2015625" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/drawable/shape_btn_add.xml" value="0.2111111111111111" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/drawable/shape_floating_btn.xml" value="0.14074074074074075" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/drawable/shape_time.xml" value="0.2111111111111111" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/layout/activity_main.xml" value="0.16041666666666668" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/layout/activity_main2.xml" value="0.20108695652173914" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/layout/float_layout.xml" value="0.18541666666666667" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/layout/main_activity_layout.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/layout/main_activty_add_layout.xml" value="0.22" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/layout/main_care_activity_layout.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/layout/main_care_activty_add_layout.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/layout/main_care_float_layout.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/layout/main_float_layout.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/menu/bottom_nav_menu.xml" value="0.3" />
+        <entry key="..\:/AndroidProject/ToDo/module_main/src/main/res/xml/accessibility_service_config.xml" value="0.1390625" />
+        <entry key="..\:/AndroidProject/ToDo/module_stats/src/main/res/layout/calendar_fragment_layout.xml" value="0.19384057971014493" />
+        <entry key="..\:/AndroidProject/ToDo/module_stats/src/main/res/layout/stats_activity_layout.xml" value="0.19384057971014493" />
+        <entry key="..\:/AndroidProject/ToDo/module_stats/src/main/res/layout/stats_care_fragment_layout.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_stats/src/main/res/layout/stats_empty.xml" value="0.18659420289855072" />
+        <entry key="..\:/AndroidProject/ToDo/module_stats/src/main/res/layout/stats_fragment_layout.xml" value="0.14666666666666667" />
+        <entry key="..\:/AndroidProject/ToDo/module_task/src/main/res/layout/activity_task.xml" value="0.16394927536231885" />
+        <entry key="..\:/AndroidProject/ToDo/module_task/src/main/res/layout/calendar_activity_layout.xml" value="0.16041666666666668" />
+        <entry key="..\:/AndroidProject/ToDo/module_task/src/main/res/layout/task_activity_layout.xml" value="0.1286231884057971" />
+        <entry key="..\:/AndroidProject/ToDo/module_task/src/main/res/layout/task_care_empty.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_task/src/main/res/layout/task_care_item.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_task/src/main/res/layout/task_empty.xml" value="0.2341485507246377" />
+        <entry key="..\:/AndroidProject/ToDo/module_task/src/main/res/layout/task_fragment_layout.xml" value="0.16394927536231885" />
+        <entry key="..\:/AndroidProject/ToDo/module_task/src/main/res/layout/task_item.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/ToDo/module_user/src/main/res/drawable/user_shape_btn.xml" value="0.2015625" />
+        <entry key="..\:/AndroidProject/ToDo/module_user/src/main/res/layout/activity_user.xml" value="0.20108695652173914" />
+        <entry key="..\:/AndroidProject/ToDo/module_user/src/main/res/layout/user_activity_layout.xml" value="0.24003623188405798" />
+        <entry key="..\:/AndroidProject/ToDo/module_user/src/main/res/layout/user_care_fragment_layout.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_user/src/main/res/layout/user_care_item_setting.xml" value="0.16700819672131148" />
+        <entry key="..\:/AndroidProject/ToDo/module_user/src/main/res/layout/user_empty.xml" value="0.16041666666666668" />
+        <entry key="..\:/AndroidProject/ToDo/module_user/src/main/res/layout/user_fragment_layout.xml" value="0.20108695652173914" />
+        <entry key="..\:/AndroidProject/ToDo/module_user/src/main/res/layout/user_item.xml" value="0.20108695652173914" />
+        <entry key="..\:/AndroidProject/ToDo/module_user/src/main/res/layout/user_item_setting.xml" value="0.24003623188405798" />
+        <entry key="..\:/program/Android/SDK/platforms/android-31/data/res/layout/activity_list_item.xml" value="0.2078804347826087" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="android.annotation.SuppressLint" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

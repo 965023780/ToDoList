@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">module_calendar</string>
+    <string name="calendar_empty">没有任务哟，放松一下！</string>
+</resources>

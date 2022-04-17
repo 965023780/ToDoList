@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">module_task</string>
+    <string name="task_empty">暂时没有任务哟，休息一会吧!</string>
+    <string name="task">任务</string>
+</resources>

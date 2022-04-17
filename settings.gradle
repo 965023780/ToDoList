@@ -1,0 +1,20 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "ToDo"
+include ':module_main'
+include ':library_network'
+include ':library_common'
+include ':library_base'
+include ':module_calendar'
+include ':module_task'
+include ':module_user'
+include ':module_stats'
+
+include ':library_database'

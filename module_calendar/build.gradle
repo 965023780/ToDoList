@@ -1,0 +1,63 @@
+plugins {
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+
+if(IS_APPLICATION.booleanValue()){
+    apply plugin: 'com.android.application'
+}else{
+    apply plugin: 'com.android.library'
+}
+
+android {
+    compileSdk rootProject.ext.android.compileSdkVersion
+
+    defaultConfig {
+        if(IS_APPLICATION.booleanValue()){
+            applicationId "com.example.module_calender"
+        }
+        minSdk rootProject.ext.android.minSdkVersion
+        targetSdk rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation rootProject.ext.androidx["core"]
+    implementation rootProject.ext.androidx["appcompat"]
+    implementation rootProject.ext.androidx["material"]
+    testImplementation rootProject.ext.androidx["junit"]
+    androidTestImplementation rootProject.ext.androidx["ext.junit"]
+    androidTestImplementation rootProject.ext.androidx["test.espresso"]
+    implementation rootProject.ext.dependencies["BaseRecyclerViewAdapterHelper"]
+    implementation  rootProject.ext.dependencies['arouter-api']
+    kapt rootProject.ext.dependencies["arouter-compiler"]
+    implementation  rootProject.ext.dependencies['greendao']
+
+    implementation project(path: ':library_common')
+    implementation project(path: ':library_base')
+    implementation project(path: ':library_database')
+    implementation 'com.haibin:calendarview:3.7.1'
+}

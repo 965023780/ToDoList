@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.haibin.calendarview.CalendarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:default_status="expand"
+    app:calendar_content_view_id="@+id/calendar_rv_task">
+
+    <com.haibin.calendarview.CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:month_view="com.example.module_calender.ui.ToDoMonthView"
+        app:week_bar_view="com.example.module_calender.ui.ToDoWeekBarView"
+        app:week_start_with="mon"
+        app:selected_theme_color="@color/calendar_selected"
+        app:selected_text_color="@color/white"
+        app:selected_lunar_text_color="@color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/calendar_rv_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</com.haibin.calendarview.CalendarLayout>

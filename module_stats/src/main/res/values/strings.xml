@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Module_stats</string>
+    <string name="stats_collect">汇总</string>
+    <string name="stats_default">0</string>
+    <string name="stats_today_number">今日完成数量</string>
+    <string name="stats_week_number">本周完成数量</string>
+    <string name="stats_month_number">本月完成数量</string>
+    <string name="stats_recent_line">七天完成情况(直线图)</string>
+    <string name="stats_recent_bar">七天完成情况(柱状图)</string>
+</resources>

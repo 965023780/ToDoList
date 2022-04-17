@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="user_setting_text">
+        <item>系统设置</item>
+        <item>普通模式</item>
+        <item>关爱模式</item>
+        <item>蓝色图表</item>
+        <item>红色图表</item>
+        <item>黄色图表</item>
+        <item>意见反馈</item>
+        <item>评价应用</item>
+        <item>隐私政策</item>
+        <item>用户协议</item>
+        <item>版本检测</item>
+        <item>QQ交流群</item>
+    </string-array>
+</resources>
