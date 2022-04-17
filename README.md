@@ -53,9 +53,9 @@
 
 飞书文档附加了百度网盘
 
-视频正在转GIF
-
-
+![image](https://github.com/965023780/ToDoList/blob/main/TalkBack.gif )   
+![image](https://github.com/965023780/ToDoList/blob/main/大字模式.gif )  
+![image](https://github.com/965023780/ToDoList/blob/main/普通模式.gif)  
 
 ## 内容链接
 
